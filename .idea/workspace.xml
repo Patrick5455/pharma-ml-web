@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="530c7f4c-e2e5-4600-9b86-e0e75dc61118" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pharma_web_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pharma_web_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/401.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-area-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-bar-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-pie-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/datatables-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/img/error-404-monochrome.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/layout-sidenav-light.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/layout-static.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dist/tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-assets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-pug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-scss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/clean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-assets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-pug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-scss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/sb-watch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/start-debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/scripts/start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-area-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-bar-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-pie-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/datatables-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/img/error-404-monochrome.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/authentication.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/dashboard.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/error.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/footer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/css.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/icons.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/meta.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/title.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/navigation/sidenav.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/navigation/topnav.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/scripts.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/401.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/404.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/500.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/charts.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/includes/datatable.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/includes/page-header.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/layout-sidenav-light.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/layout-static.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/login.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/password.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/register.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/tables.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_authentication.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_dashboard-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_dashboard-fixed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_error.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/_topnav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/variables/_navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/variables/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requiremetns.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +87,7 @@
       <workItem from="1598139468016" duration="7365000" />
       <workItem from="1598151395422" duration="3850000" />
       <workItem from="1598155299776" duration="182000" />
-      <workItem from="1598155659765" duration="72000" />
+      <workItem from="1598155659765" duration="1306000" />
     </task>
     <servers />
   </component>
