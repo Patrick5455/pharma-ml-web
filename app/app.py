@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, request, jsonify
 import joblib
 import numpy as np
 import pandas as pd
@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return 'Hello World!'
+    return render_template("index.html")
 
 
 @app.route("/upload")
