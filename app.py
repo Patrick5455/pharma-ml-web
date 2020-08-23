@@ -1,15 +1,17 @@
 import pickle
 from datetime import datetime
-
+from config import Config
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, flash, redirect, request
+from models.model_classes import Preprocessing, Regressor
 
 from prediction_notes import sales_detail, \
     sales_title, cust_detail, cust_title, time_detail, \
     time_title, analysis_detail, analysis_title, business_questions
 
 app = Flask(__name__)
+app.config.from_object(Config)
 
 
 @app.route('/')
@@ -33,15 +35,7 @@ class CustomUnpickler(pickle.Unpickler):
             return super().find_class(module, name)
 
 
-model = CustomUnpickler(open("app/models/model1.pkl", 'rb')).load()
-
-
-# with open('app/models/model1.pkl','rb') as fh:
-#     model = pickle.load(fh)
-
-# model = pickle.load(open("app/models/model1.pkl", "rb"))
-
-# user = {"username": "Miguel"}
+model = CustomUnpickler(open("models/model1.pkl", 'rb')).load()
 
 
 # other web views
@@ -49,7 +43,7 @@ model = CustomUnpickler(open("app/models/model1.pkl", 'rb')).load()
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template("index.html", user=user)
+    return render_template("index.html", )
 
 
 @app.route("/about", methods=['GET'])
