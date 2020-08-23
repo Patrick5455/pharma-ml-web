@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="530c7f4c-e2e5-4600-9b86-e0e75dc61118" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pharma_web_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pharma_web_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-area-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-bar-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/chart-pie-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/demo/datatables-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/assets/img/error-404-monochrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/layout-sidenav-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/layout-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dist/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-pug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/build-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-pug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/render-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/sb-watch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/start-debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-area-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-bar-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/chart-pie-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/demo/datatables-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/assets/img/error-404-monochrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/authentication.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/dashboard.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/error.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/css.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/icons.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/meta.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/head/title.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/navigation/sidenav.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/navigation/topnav.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/layouts/includes/scripts.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/401.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/404.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/500.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/charts.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/includes/datatable.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/includes/page-header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/layout-sidenav-light.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/layout-static.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/login.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/password.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/register.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/pug/pages/tables.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_authentication.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_dashboard-default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_dashboard-fixed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/layout/_error.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/_topnav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/navigation/sidenav/_sidenav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/variables/_navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/src/scss/variables/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requiremetns.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="2e7ef40a-8b32-40d9-876c-80860e9fa829" />
+  <component name="ProjectId" id="1gTXG9OdoKZQGvRi9zbLe0U1WrP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates/dist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.pharma_web_project">
+    <configuration name="Flask" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="pharma_web_project" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pharma_web_project" type="Python.FlaskServer">
+      <module name="pharma_web_project" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="530c7f4c-e2e5-4600-9b86-e0e75dc61118" name="Default Changelist" comment="" />
+      <created>1598139457758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598139457758</updated>
+      <workItem from="1598139468016" duration="7365000" />
+      <workItem from="1598151395422" duration="3850000" />
+      <workItem from="1598155299776" duration="182000" />
+      <workItem from="1598155659765" duration="72000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="300" width="424" height="522" key="FileChooserDialogImpl" timestamp="1598155401865">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="303" y="300" width="424" height="522" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598155401865" />
+    <state width="878" height="274" key="GridCell.Tab.0.bottom" timestamp="1598151364896">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="878" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364896" />
+    <state width="878" height="274" key="GridCell.Tab.0.center" timestamp="1598151364895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="878" height="274" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
+    <state width="878" height="274" key="GridCell.Tab.0.left" timestamp="1598151364895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="878" height="274" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
+    <state width="878" height="274" key="GridCell.Tab.0.right" timestamp="1598151364895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="878" height="274" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pharma_web_project$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1598140995559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
