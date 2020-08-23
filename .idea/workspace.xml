@@ -1,71 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="530c7f4c-e2e5-4600-9b86-e0e75dc61118" name="Default Changelist" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Flask Main" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JupyterTrust" id="2e7ef40a-8b32-40d9-876c-80860e9fa829" />
-  <component name="ProjectId" id="1gTXG9OdoKZQGvRi9zbLe0U1WrP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/templates/dist" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/templates" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Flask server.pharma_web_project">
-    <configuration name="Flask" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="pharma_web_project" />
+  <component name="RunManager">
+    <configuration name="pharma_web" type="Python.FlaskServer">
+      <module name="pharma_web" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pharma_web_project" type="Python.FlaskServer">
-      <module name="pharma_web_project" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -73,52 +16,5 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="530c7f4c-e2e5-4600-9b86-e0e75dc61118" name="Default Changelist" comment="" />
-      <created>1598139457758</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1598139457758</updated>
-      <workItem from="1598139468016" duration="7365000" />
-      <workItem from="1598151395422" duration="3850000" />
-      <workItem from="1598155299776" duration="182000" />
-      <workItem from="1598155659765" duration="3525000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="352" width="605" height="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598164584810">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="223" y="352" width="605" height="409" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1598164584810" />
-    <state x="303" y="300" width="424" height="522" key="FileChooserDialogImpl" timestamp="1598155401865">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="303" y="300" width="424" height="522" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598155401865" />
-    <state width="878" height="274" key="GridCell.Tab.0.bottom" timestamp="1598151364896">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="878" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364896" />
-    <state width="878" height="274" key="GridCell.Tab.0.center" timestamp="1598151364895">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="878" height="274" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
-    <state width="878" height="274" key="GridCell.Tab.0.left" timestamp="1598151364895">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="878" height="274" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
-    <state width="878" height="274" key="GridCell.Tab.0.right" timestamp="1598151364895">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="878" height="274" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598151364895" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pharma_web_project$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1598140995559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
