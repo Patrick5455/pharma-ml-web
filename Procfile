@@ -1,1 +1,1 @@
-web: gunicorn pharma_web_app:app --log-file=-
+web: gunicorn pharma_web:app --log-file=-
