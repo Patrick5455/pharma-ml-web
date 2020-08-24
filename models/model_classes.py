@@ -1,3 +1,14 @@
+from urllib import request
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import statsmodels.api as sm
+import plotly
+from fbprophet import Prophet as proph
+import pickle
+import joblib
 from sklearn.base import BaseEstimator, RegressorMixin, TransformerMixin
 
 import pandas as pd
@@ -91,3 +102,17 @@ class Regressor(BaseEstimator, RegressorMixin):
     def predict(self, X):
         dtest = xgb.DMatrix(X)
         return self.model.predict(dtest)
+
+
+# prophet model forecasting
+# def predict():
+    # inp = int(request.json['inp'])
+    #
+    # future2 = m.make_future_dataframe(periods=inp)
+    # forecast2 = m.predict(future2)
+    #
+    # data = forecast2[['ds', 'yhat', 'yhat_lower', 'yhat_upper']][-horizon:]
+    #
+    # ret = data.to_json(orient='records', date_format='iso')
+    #
+    # return ret

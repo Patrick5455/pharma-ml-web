@@ -50,7 +50,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="{{ url_for('about') }}">About Project<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{ url_for('about_project') }}">About Project<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ url_for('analysis') }}">Analysis</a>
@@ -63,9 +63,10 @@
           Predictions
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="{{ url_for('time_series') }}">Time Series</a>
-          <a class="dropdown-item" href="{{ url_for('sales_forecast') }}">Sales Forecast</a>
-          <a class="dropdown-item" href="{{ url_for('cust_churn') }}">Customer Churn</a>
+{#          <a class="dropdown-item" href="{{ url_for('time_series') }}">Time Series</a>#}
+          <a type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#time-series-form" data-whatever="@mdo"> Time Forecast</a>
+            <a class="dropdown-item" href="{{ url_for('predict_sales') }}">Sales Forecast</a>
+{#          <a class="dropdown-item" href="{{ url_for('cust_churn') }}">Customer Churn</a>#}
         </div>
       </li>
     </ul>
@@ -83,19 +84,110 @@
       <p>The Project encompasses Exploratory Data Analysis (EDA) & Visualizations and Machine Learning.</p>
       <p class="lead">
         <a class="btn btn-primary btn-lg" href="{{ url_for('analysis') }}" role="button">Analysis</a>
-        <a class="btn btn-primary btn-lg" href="{{ url_for('time_series') }}" role="button">Predictions</a>
+{#        <a class="btn btn-primary btn-lg" href="{{ url_for('time_series') }}" role="button">Predictions</a>#}
+          <button type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#time-series-form" data-whatever="@mdo"> Time Forecast</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#sales-pred-form">
+  Sales Predictions
+</button>
 
-<!--         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--          Predictions-->
-<!--        </a>-->
-<!--        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
-<!--          <a class="dropdown-item" href="/time">Time Series</a>-->
-<!--          <a class="dropdown-item" href="/sales">Sales Forecast</a>-->
-<!--          <a class="dropdown-item" href="/cust">Customer Churn</a>-->
-<!--        </div>-->
       </p>
 
     </div>
+
+{#        TIme Series Modal#}
+<div class="modal fade" id="time-series-form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Time Series Predictions for Sales</h5>
+          <p></p>
+          <p></p>
+        <bold><small>Predictions are run from today till the number of days specified</small></bold>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+           <form action="{{ url_for('time_series')}}" method="post">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Forecast Length</label>
+            <input type="number" class="form-control" id="days" placeholder="Number of days to Forecast Sales" required>
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+{#        <a type="submit" class="btn btn-primary" >Predict</a>#}
+          <button type="submit" class="btn btn-primary btn-block btn-large">Get Predictions</button>
+          </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{#        SSales Prediction Modal#}
+<div class="modal fade" id="sales-pred-form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Upload Data</h5>
+          <ul>
+              <li>Sales Data</li>
+              <li>Train Data</li>
+          </ul>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="{{ url_for('predict_sales') }}" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Store Data:</label>
+            <input type="file" class="form-control" id="store-data"  name="store-data-file" value="upload-store" required>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Train Data</label>
+            <input type="file" class="form-control" id="train-data" name="train-data-file" value="upload-train" required>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+{#        <a type="submit" class="btn btn-primary" >Predict</a>#}
+                  <button type="submit" class="btn btn-primary btn-block btn-large">Get Predictions</button>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Optional JavaScript -->

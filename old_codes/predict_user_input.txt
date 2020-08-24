@@ -1,0 +1,20 @@
+# model_result = request.form.values()
+#     # print(model_result)
+#     features = []
+#     for val in model_result:
+#         if "-" in val:
+#             dt = datetime.strptime(val, '%Y-%m-%d')
+#             date = dt.date()
+#             features.append(date)
+#         else:
+#             features.append(int(val))
+#     [print(f, type(f)) for f in features]
+#     data = np.array(features)
+#     data = data.reshape(1, len(columns))
+#     data = pd.DataFrame(data, columns=columns)
+#
+#     print(data.columns.values)
+#
+#     data = model.predict(data)
+#
+#     prediction = model.predict(data)
