@@ -2,6 +2,8 @@ import logging
 import os
 from logging.handlers import RotatingFileHandler
 
+from app import app
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
