@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% block head %}
+  {{ super() }}
 
- {#      css#}
+    {#      css#}
  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
-
+{% endblock %}
 {% block content %}
 
 
@@ -19,7 +21,7 @@ individual stores rely on their years of experience as well as their personal ju
 forecast sales.</p>
 
         <p>The data team identified factors such as promotions, competition, school and state holidays,
-            seasonality, and locality as necessary for predicting the sales across the various stores.</p>p>
+            seasonality, and locality as necessary for predicting the sales across the various stores.</p>
 
  <p> Our job is to build and serve an end-to-end product that delivers this prediction to Analysts
 in the finance team.</p>
@@ -28,8 +30,8 @@ in the finance team.</p>
 
      <ul>
          <li> <h4>Exploration of customer purchasing
-             behavior:</h4>>
-         <<p>Exploratory data analysis is the lifeblood of every meaningful machine learning project. It
+             behavior:</h4>
+         <p>Exploratory data analysis is the lifeblood of every meaningful machine learning project. It
 helps us unravel the nature of the data and sometimes informs how we go about modelling.
 A careful exploration of the data encapsulates checking all available features, checking
 their interactions and correlation as well as their variability with respect to the target.
