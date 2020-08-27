@@ -1,8 +1,15 @@
-.home_page {
+.page {
 
-    text-align: center;
+   margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 h3{
 color: brown;
+}
+
+h4{
+    color: rosybrown;
 }
