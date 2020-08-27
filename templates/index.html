@@ -1,9 +1,30 @@
 {% extends "base.html" %}
 
+{% block head %}
+  {{ super() }}
+
+    {#      css#}
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+{% endblock %}
+
 {% block content %}
 
-    <h1></h1>
+    <div class="home_page">
+    <h1>Pharmaceutical Sales prediction across
+        multiple stores</h1> </div>
 
+    <h3>Business Need</h3>
 
+    <p>We work at Rossmann Pharmaceuticals  as a data scientist. The finance team wants to
+forecast sales in all their stores across several cities six weeks ahead of time. Managers in
+individual stores rely on their years of experience as well as their personal judgement to
+forecast sales.</p>
+
+        <p>The data team identified factors such as promotions, competition, school and state holidays,
+            seasonality, and locality as necessary for predicting the sales across the various stores.</p>
+
+ <p> Our job is to build and serve an end-to-end product that delivers this prediction to Analysts
+in the finance team.</p>
 
 {% endblock %}

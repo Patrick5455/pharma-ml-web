@@ -1,17 +1,67 @@
 {% extends "base.html" %}
 
+ {#      css#}
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
 {% block content %}
-    <h1>About us</h1>
 
-    <h3>Our Goal</h3>
 
-    <p>Machine Learning for Prediction and good wine</p>
+     <div class="home_page">
+    <h1>Pharmaceutical Sales prediction across
+        multiple stores</h1>
 
-    <h3>Team</h3>
-    <ul>
-        <li>John Lotome</li>
-        <li>Ridwan Amure</li>
-        <li>Patrick Ojunde</li>
-    </ul>
+    <h3>Business Need</h3>
 
+    <p>We work at Rossmann Pharmaceuticals  as a data scientist. The finance team wants to
+forecast sales in all their stores across several cities six weeks ahead of time. Managers in
+individual stores rely on their years of experience as well as their personal judgement to
+forecast sales.</p>
+
+        <p>The data team identified factors such as promotions, competition, school and state holidays,
+            seasonality, and locality as necessary for predicting the sales across the various stores.</p>p>
+
+ <p> Our job is to build and serve an end-to-end product that delivers this prediction to Analysts
+in the finance team.</p>
+
+     <h3>Tasks</h3>
+
+     <ul>
+         <li> <h4>Exploration of customer purchasing
+             behavior:</h4>>
+         <<p>Exploratory data analysis is the lifeblood of every meaningful machine learning project. It
+helps us unravel the nature of the data and sometimes informs how we go about modelling.
+A careful exploration of the data encapsulates checking all available features, checking
+their interactions and correlation as well as their variability with respect to the target.
+In this task, we seek to explore the behaviour of customers in the various stores. Our goal is
+to check how some measures such as promos and opening of new stores affect purchasing
+behavior.
+To achieve this goal, we need to first clean the data. The data cleaning process will involve
+building pipelines to detect and handle outlier and missing data. This is particularly
+important because we don’t want to skew our analysis.
+Visualizing various features and interactions is necessary for clearly communicating our
+findings.</p>
+         </li>
+
+         <li>
+             <h4>Prediction of store sales</h4>
+
+             <p>Prediction of sales is the central task in this challenge. We want to predict daily sales in
+various stores up to 6 weeks ahead of time. This will help the company plan ahead of time.</p>
+         </li>
+
+         <li>
+             <h4>Serving predictions on a web interface</h4>
+             <P>We would be building a basic web app to automatically do everything from
+modelling to serving predictions. Your task is to build a solution at scale using the steps
+outlined below:</P>
+         </li>
+
+     </ul>
+
+
+
+
+
+</div>
 {% endblock %}
