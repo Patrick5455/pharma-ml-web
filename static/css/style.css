@@ -11,5 +11,27 @@ color: brown;
 }
 
 h4{
-    color: rosybrown;
+    color: coral;
+}
+
+body{
+    font-family: "Century Schoolbook L";
+}
+
+p{
+    font-size: 2em;
+}
+
+h1 {text-align: center;
+}
+
+p {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+
+h5{
+    color: brown;
 }
